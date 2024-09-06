@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+}
+
+#map {
+  height: 98vh;
+  width: 100%;
+}
+
+/* Estilos para el popup */
+.popup {
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+  width: 240px;
+}
+
+.button-container {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.button-container button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.button-container button:hover {
+  background-color: #0056b3;
+}
+
+.properties-container {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 5px;
+  padding: 5px;
+}
+
+.propertie-container {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  flex-direction: column;
+  margin-bottom: 10px;
+  border: black dotted 2px;
+  padding: 5px;
+  width: 45%;
+}
+
+.key {
+  font-weight: bold;
+  text-align: center;
+  font-size: small;
+}
+
+.value {
+  /* Estilos para el valor (puedes personalizarlo según tus necesidades) */
+  color: #333;
+  text-align: center;
+  font-size: smaller;
+}
